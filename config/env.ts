@@ -1,4 +1,4 @@
-module.exports = {
+const env = {
   url: 'https://parabank.parasoft.com/parabank/index.htm',
 
   users: {
@@ -8,3 +8,5 @@ module.exports = {
     }
   }
 };
+
+export default env;
