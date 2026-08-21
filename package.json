@@ -1,0 +1,17 @@
+{
+  "name": "playwright-parabank",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "chrome": "playwright test --project='Desktop Chrome'",
+    "device": "playwright test --project='Pixel 7'",
+    "headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

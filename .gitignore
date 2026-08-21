@@ -1,0 +1,12 @@
+node_modules/
+playwright-report/
+test-results/
+reports/
+screenshots/
+.DS_Store
+.env
+coverage/
+.nyc_output/
+.vscode/
+.idea/
+*.log
